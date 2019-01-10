@@ -1,0 +1,58 @@
+@media only screen and (max-width: 850px) {
+  .gallery {
+    width: 100vw;
+  }
+
+  .wider {
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 860px) {
+  .gallery {
+    height: 90vh;
+  }
+
+  .wider {
+    height: 100vh;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.narrow {
+  width: 20vh;
+}
+
+@import "~video-react/dist/video-react.css";
